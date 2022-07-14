@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../comps/Navbar';
 
 export default function Home() {
   return (
@@ -7,8 +8,11 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <main>
-        <h1>Home</h1>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
       </main>
     </div>
   )
