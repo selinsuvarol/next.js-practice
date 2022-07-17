@@ -9,9 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main>
-      <h1 className="text-3xl bg-yellow-300  underline">
-        Main Content Here 
+      <main className='h-screen bg-yellow-300'>
+      <h1 className="text-3xl underline">
+        You're on homepage right now. 
       </h1>
       </main>
     </div>
