@@ -1,13 +1,12 @@
 import React from "react";
 import { ShoppingCartIcon } from '@heroicons/react/solid';
+
 function Navbar () {
     return (
     <nav
-        className="flex items-center justify-between flex-wrap bg-white py-4 lg:px-12 shadow border-solid border-t-2 border-darkpurple">
+        className="flex items-center justify-between flex-wrap bg-white py-4 lg:px-12 border-solid border-t-2 border-darkpurple shadow-black">
         <div className="flex justify-between lg:w-auto w-full lg:border-b-0 pl-6 pr-2 border-solid border-b-2 border-gray-300 pb-5 lg:pb-0">
-            <div className="flex items-center flex-shrink-0 text-gray-800 mr-16">
-                <span className="font-semibold text-xl tracking-tight">Student Store</span>
-            </div>
+                <img src="./logos/navbar-logo.jpg" alt="student store logo" className="border border-blue-600"/>
             <div className="block lg:hidden ">
                 <button
                     id="nav"
@@ -32,7 +31,7 @@ function Navbar () {
             </div>
             <div className="relative mx-2  text-gray-600 lg:block hidden">
                 <input
-                    className="border-2 border-gray-300 bg-white rounded-[20px] h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
+                    className="border-2 border-gray-300 bg-white rounded-[20px] h-10 pl-2 pr-8  text-sm focus:outline-none"
                     type="search" name="search" placeholder="Search"></input>
                 <button type="submit" className="absolute right-0 top-0 mt-3 mr-2">
                 </button>
